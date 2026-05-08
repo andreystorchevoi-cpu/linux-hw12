@@ -1,0 +1,183 @@
+    1  git config --global user.name "Andrii Storchevyi"
+    2  git config --global user.email "andrey.storchevoi@gmail.com"
+    3  git config --global -l
+    4  mkdir my git
+    5  cd my git
+    6  date >> date.txt
+    7  ls-al
+    8  git init
+    9  ls -al
+   10  git add .
+   11  git commit -m 'inital commit'
+   12  rm -rf .git
+   13  mkdir gitlextion1
+   14  cd gitlextion1
+   15  git init
+   16  echo "# gitlextion1" >> README.md
+   17  git init
+   18  git add README.md
+   19  git commit -m "first commit"
+   20  git branch -M main
+   21  git remote add origin git@github.com:andreystorchevoi-cpu/gitlextion1.git
+   22  git push -u origin main
+   23  [200~
+   24  echo "# gitlextion1" >> README.md
+   25  git init
+   26  git add README.md
+   27  git commit -m "first commit"
+   28  git branch -M main
+   29  git remote add origin git@github.com:andreystorchevoi-cpu/gitlextion1.git
+   30  git push -u origin main
+   31  git push
+   32  mkdir GIT INTRO
+   33  ls -al
+   34  .
+   35  ..
+   36  .git
+   37  date >> file.date.txt
+   38  .git
+   39  git status
+   40  mkdir git_intro
+   41  cd git_intro
+   42  git init
+   43  git add screenshot
+   44  git add photo.jpg
+   45  git commit -m "Added photo"
+   46  git branch -M main
+   47  git remote add origin git@github.com:Andrii Storchevyi/git_intro.git
+   48  git push -u origin main
+   49  ls
+   50  git push -u origin main
+   51  ls
+   52  git add photo.jpg
+   53  git commit -m "Added photo"
+   54  git add [200~'Снимок экрана 2026-03-20 134428.png'~
+   55   git commit -m "Снимок экрана 2026-03-20 134428.png"
+   56  git add 'Снимок экрана 2026-03-20 134428.png'
+   57  git remote
+   58  git push
+   59  git push -u origin main
+   60  ls
+   61  git remove -v
+   62  ls
+   63  git add "Снимок экрана 2026-03-20 134428.png"
+   64  git commit -m "Added photo"
+   65  git push -u origin main
+   66  mv "Снимок экрана 2026-03-20 134428.png" screenshot.png
+   67  git add screenshot.png
+   68  git commit -m "Added photo"
+   69  git push -u origin main
+   70  git remote -v
+   71  git remote add origin https://github.com/andreystorchevoi-cpu/git_intro.git
+   72  git remove -v
+   73  git remote -v
+   74  git push -u origin main
+   75  git push -u origin main
+   76  git pull origin main --allow-unrelated-histories
+   77  rm -rf .git
+   78  mv "'/c/Users/andre/Pictures/Screenshots/Снимок экрана 2026-03-20 134428.png'
+   79  screenshot.png
+   80  rm -rf .git
+   81  mv "Снимок экрана 2026-03-20 134428.png" screenshot.png
+   82  git init
+   83  git add screenshot.png
+   84  git init
+   85  git add screenshot.png
+   86  ls
+   87  git add .
+   88  git commit -m "Added photo"
+   89  git remote add origin https://github.com/andreystorchevoi-cpu/git_intro.git
+   90  git push -u origin main
+   91  git branch -M main
+   92  git remote set-url origin https://github.com/andreystorchevoi-cpu/git_intro.git
+   93  git push -u origin main
+   94  ls -al
+   95  git clone https://github.com/andreystorchevoi-cpu/git-branch.git
+   96  ls -al
+   97  cd git-branch
+   98  git checkout -b gitignore
+   99  curl https://github.com/aliaskov/bashscripts/blob/master/.gitignore -o .gitignore
+  100  git add .gitignore
+  101  git commit -m "Added .gitignore file to gitignore branch"
+  102  git push origin gitignore
+  103  git clone https://github.com/andreystorchevoi-cpu/linux-hw12.git
+  104  cd linux-hw2
+  105  touch .gitignore
+  106  touch README.md
+  107  echo "Homework 12" >> README.md
+  108  echo "*.log >> .gitignore
+  109  git add .
+  110  git commit -m "Initial commit"
+  111  git push origin main
+  112  git checkout -b feature
+  113  echo "Some new text" >> README.md
+  114  echo "*.tmp" >> .gitignore
+  115  git add .
+  116  git commit -m "feature changes"
+  117  git push origin feature
+  118  git commit --amend -m "feature changes amend"
+  119  git push --force origin feature
+  120  git checkout main
+  121  git merge feature
+  122  git push origin main
+  123  history > history.txt
+  124  git add history.txt
+  125  git commit -m "add history"
+  126  git push origin main
+  127  git branch
+  128  git log --oneline
+  129  git status 
+  130  cd linix-hw12
+  131  pwd
+  132  ls -la
+  133  touch .gitignore
+  134  hwd
+  135  pdw
+  136  pwd
+  137  ls -la
+  138  cd linux-hw12
+  139  pwd
+  140  ls -la
+  141  rm -rf .git
+  142  rm README.md .gitignore
+  143  cd linux-hw12
+  144  touch .gitignore
+  145  touch README.md
+  146  echo "# Homework 12" >> README.md
+  147  echo "*.log" >> .gitignore
+  148  git add .
+  149  git commit -m "Initial commit"
+  150  git branch -M main
+  151  git push -u origin main
+  152  pwd
+  153  git remote -v
+  154  git remote https://github.com/andreystorchevoi-cpu/linux-hw12.git
+  155  git remote -v
+  156  git remote -v
+  157  git remote https://github.com/andreystorchevoi-cpu/linux-hw12.git
+  158  git remote -v
+  159  git branch -M main
+  160  git push -u origin main
+  161  cd ~/GIT/linux-hw12
+  162  ls -la
+  163  git remote remove origin
+  164  git remote add origin https://github.com/andreystorchevoi-cpu/linux-hw12.git
+  165  git remote -v
+  166  git branch -M main
+  167  git push -u origin main
+  168  git checkout -b feature
+  169  echo "Some new text" >> README.md
+  170  echo "*.tmp" >> .gitignore
+  171  git add .
+  172  git commit -m "feature changes"
+  173  git push origin feature
+  174  git commit --amend -m "feature changes amend"
+  175  git push --force origin feature
+  176  git checkout main
+  177  git merge feature
+  178  git push origin main
+  179  remote: Internal Server Error
+  180  git push origin main
+  181  git status
+  182  git log --oneline
+  183  history > history.txt
